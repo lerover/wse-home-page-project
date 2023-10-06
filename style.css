@@ -1,0 +1,48 @@
+.fullscreen{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wallpaper{
+    width: 65%;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.login-part{
+    width: 35%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weight-of-text{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.38px;
+}
+
+.link{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.privacy-policy{
+    color: rgba(128, 128, 128, 0.683);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-size: 15px;
+}
+
+
+
+
+
