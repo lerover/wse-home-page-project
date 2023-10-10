@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.display-nav-menu-home{
+    width: 30%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar-font-size{
+    font-size: 18px;
+    font-weight: 600;
+    width: 40%;
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+
+/* this css-property is used for placing the items in the any navs in this document */
+.display-for-navs{
+width: 100%;
+height: 60px;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.profile-noti-search-gp{
+    width: 30%;
+
+    display: flex;
+    justify-content: space-around;
+
+}
