@@ -1,4 +1,4 @@
-.fullscreen{
+.fullscreen {
     height: 100vh;
     width: 100%;
 
@@ -6,43 +6,64 @@
     justify-content: flex-end;
 }
 
-.wallpaper{
+.wallpaper {
     width: 65%;
     height: 100vh;
 
     background-color: black;
 }
 
-.login-part{
+.place-login-part {
     width: 35%;
     height: 100vh;
 
     display: flex;
-    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-part {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.weight-of-text{
+form {
+    width: 500px;
+}
+
+.weight-of-text {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: -1.38px;
 }
 
-.link{
+.link {
     color: black;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
 
-.privacy-policy{
+.privacy-policy {
     color: rgba(128, 128, 128, 0.683);
     text-decoration: none;
     letter-spacing: -0.5px;
     font-size: 15px;
 }
 
+@media(max-width:1300px) {
 
+    form {
+        width: 400px;
 
+    }
 
-
+    .margin-adding{
+        margin-bottom: 200px;
+    }
+}
